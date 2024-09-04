@@ -652,7 +652,7 @@ bool CDockManager::eventFilter(QObject *obj, QEvent *e)
 		}
 		if (!window()->isMinimized())
 		{
-            window()->activateWindow();(
+            window()->activateWindow();
             //QApplication::setActiveWindow(window());
 		}
 	}
